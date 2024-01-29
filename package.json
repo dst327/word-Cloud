@@ -1,0 +1,22 @@
+{
+  "name": "word-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "canvas": "^2.11.2",
+    "d3-cloud": "^1.2.7",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "puppeteer": "^21.9.0",
+    "request": "^2.88.2",
+    "stopword": "^3.0.1"
+  }
+}
