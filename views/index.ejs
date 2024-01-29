@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cloud Generator</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 40px;
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        img {
+            max-width: 100%;
+            margin-top: 20px;
+           
+        }
+
+        p {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Cloud Generator</h1>
+    <% if (wordcloudImage) { %>
+        <img src="<%= wordcloudImage %>" alt="Word Cloud Image">
+    <% } else { %>
+        <p>No word cloud image available.</p>
+    <% } %>
+</body>
+</html>
